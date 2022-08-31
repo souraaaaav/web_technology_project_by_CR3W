@@ -1,0 +1,28 @@
+.svg-wrapper {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background: #0a192f;
+    opacity: 0.7;
+}
+
+.svg-wrapper>svg {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 350px;
+    height: 150px;
+    animation-name: animate;
+    animation-duration: 0.8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate {
+    0% {
+        /* filter: drop-shadow(0px 0px 1px #fff) drop-shadow(0px 0px 3px #fff) drop-shadow(0px 0px 10px #64ffda) drop-shadow(0px 0px 30px #64ffda); */
+    }
+    100% {
+        /* filter: drop-shadow(0px 0px 1px #fff) drop-shadow(0px 0px 3px #fff) drop-shadow(0px 0px 10px #64ffda) drop-shadow(0px 0px 30px #64ffda); */
+    }
+}
